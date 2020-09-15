@@ -49,7 +49,9 @@ export default memo(function CMAppHeader() {
           </div>
         </HeaderLeft>        
         <HeaderRight>
-          <Input placeholder="音乐/视频/电台/用户" profix={<SearchOutlined />} />
+          <Input className="search" placeholder="音乐/视频/电台/用户" prefix={<SearchOutlined />} />
+          <button className="center">创作者中心</button>
+          <a href="/#">登录</a>
         </HeaderRight>
       </div>
       <div className="divider"></div>

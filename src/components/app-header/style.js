@@ -95,5 +95,34 @@ export const HeaderLeft = styled.div`
 `
 
 export const HeaderRight = styled.div`
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+  .search {
+    width: 158px;
+    border-radius: 32px;
+  }
+  .center {
+    line-height: 33px;
+    border-radius: 20px;
+    padding: 0px 16px;
+    background-color: transparent;
+    border: 1px solid #4F4F4F;
+    color: #ccc;
+    line-height: 32px;
+    height: 32px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  .center:hover {
+    border: 1px solid #ccc;
+  }
+  a {
+    margin-left: 20px;
+  }
+  a:hover {
+    color: #787878;
+  }
 `
