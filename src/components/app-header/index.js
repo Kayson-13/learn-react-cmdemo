@@ -3,6 +3,8 @@ import React, { memo } from 'react';
 import { headLinks } from '@/common/local-data';
 
 import { NavLink } from 'react-router-dom';
+import { SearchOutlined } from '@ant-design/icons'
+import { Input } from 'antd';
 import {
   HeaderWrapper,
   HeaderLeft,
@@ -46,7 +48,9 @@ export default memo(function CMAppHeader() {
             }            
           </div>
         </HeaderLeft>        
-        <HeaderRight>right</HeaderRight>
+        <HeaderRight>
+          <Input placeholder="音乐/视频/电台/用户" profix={<SearchOutlined />} />
+        </HeaderRight>
       </div>
       <div className="divider"></div>
     </HeaderWrapper>
