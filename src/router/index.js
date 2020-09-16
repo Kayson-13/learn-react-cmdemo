@@ -4,8 +4,7 @@ import CMProfile from '@/pages/profile';
 
 const routes = [
   {
-    path: "/",
-    exact: true,
+    path: "/discovery",
     component: CMDiscovery
   },
   {
