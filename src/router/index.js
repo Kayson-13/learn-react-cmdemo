@@ -1,6 +1,6 @@
 import CMDiscovery from '@/pages/discovery';
-import CMFriends from '@/pages/friends';
 import CMProfile from '@/pages/profile';
+import CMFriends from '@/pages/friends';
 
 const routes = [
   {
@@ -16,6 +16,6 @@ const routes = [
     path: '/friends',
     component: CMFriends
   }
-];
+]
 
 export default routes;
