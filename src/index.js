@@ -2,11 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
+import Practice from './Practice';
 
 import '@/assets/css/reset.css'
 
+
+const comment = {
+  date: new Date(),
+  text: 'I hope you enjoy learning React!',
+  author: {
+    name: 'Hello Kitty',
+    avatarUrl: 'https://placekitten.com/g/64/64',
+  },
+};
+
+
 ReactDOM.render(
-  <App />,  
+  // <App />, 
+  <Practice date={comment.date} text={comment.text} author={comment.author}/>, 
   document.getElementById('root')
 );
 
